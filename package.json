@@ -1,7 +1,7 @@
 {
   "name": "codic",
   "main": "./lib/codic",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "codicを使ってネーミング生成",
   "keywords": [],
   "activationCommands": {
