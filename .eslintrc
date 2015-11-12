@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "atom": false
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "extends": "ponko2",
+  "rules": {
+    "no-console": 0
+  }
+}

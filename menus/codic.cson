@@ -1,0 +1,11 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Codic'
+      'submenu': [
+        'label': 'Generate Naming'
+        'command': 'codic:convert'
+      ]
+    }
+  ]

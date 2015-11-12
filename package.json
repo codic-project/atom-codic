@@ -1,0 +1,22 @@
+{
+  "name": "codic",
+  "main": "./lib/codic",
+  "version": "0.0.0",
+  "description": "codicを使ってネーミング生成",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "codic:convert"
+  },
+  "repository": "https://github.com/codic-project/atom-codic",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "eslint-config-ponko2": "^1.2.1"
+  }
+}
